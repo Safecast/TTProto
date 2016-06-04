@@ -6,6 +6,9 @@ message Telecast {
         UNKNOWN_DEVICE_TYPE = 0;
         BGEIGIE_NANO = 1;
         SIMPLECAST = 2;
+        TTAPP = 3;
+        TTRELAY = 4;
+        TTGATE = 5;
     }
 
     required deviceType DeviceType = 1;
