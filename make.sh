@@ -1,4 +1,4 @@
-## placed on the standard path after installing google's PB support
+## placed on the standard path after installing standard PB support
 protoc --go_out=./golang teletype.proto
 
 ## Download and unzip nanopb sdk into a folder, and point to it with the env var NANOPBSDK
