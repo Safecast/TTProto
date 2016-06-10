@@ -28,4 +28,7 @@ message Telecast {
     optional double Longitude = 8;
     optional uint32 Altitude = 9;
 
+    optional double BatteryLevel = 10;
+    optional double WirelessSNR = 11;
+
 }
