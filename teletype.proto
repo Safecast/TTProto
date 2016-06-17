@@ -12,23 +12,26 @@ message Telecast {
     }
 
     required deviceType DeviceType = 1;
-    required string DeviceID = 2;
-    required string Message = 3;
+
+    optional string DeviceIDString = 2;
+    optional uint32 DeviceIDNumber = 3;
+
+    optional string Message = 4;
     
-    optional string CapturedAt = 4;
+    optional string CapturedAt = 5;
 
     enum unit {
         UNKNOWN_UNIT = 0;
         CPM = 1;
     }
-    optional unit Unit = 5;
-    optional uint32 Value = 6;
+    optional unit Unit = 6;
+    optional uint32 Value = 7;
 
-    optional double Latitude = 7;
-    optional double Longitude = 8;
-    optional uint32 Altitude = 9;
+    optional double Latitude = 8;
+    optional double Longitude = 9;
+    optional uint32 Altitude = 10;
 
-    optional double BatteryLevel = 10;
-    optional double WirelessSNR = 11;
+    optional double BatteryLevel = 11;
+    optional double WirelessSNR = 12;
 
 }
