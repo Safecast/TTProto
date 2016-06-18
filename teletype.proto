@@ -31,7 +31,8 @@ message Telecast {
     optional double Longitude = 9;
     optional uint32 Altitude = 10;
 
-    optional double BatteryLevel = 11;
-    optional double WirelessSNR = 12;
+    optional double BatteryVoltage = 11;
+    optional double BatterySOC = 12;
+    optional double WirelessSNR = 13;
 
 }
