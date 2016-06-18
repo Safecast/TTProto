@@ -27,12 +27,12 @@ message Telecast {
     optional unit Unit = 6;
     optional uint32 Value = 7;
 
-    optional double Latitude = 8;
-    optional double Longitude = 9;
+    optional float Latitude = 8;
+    optional float Longitude = 9;
     optional uint32 Altitude = 10;
 
-    optional double BatteryVoltage = 11;
-    optional double BatterySOC = 12;
-    optional double WirelessSNR = 13;
+    optional float BatteryVoltage = 11;
+    optional float BatterySOC = 12;
+    optional float WirelessSNR = 13;
 
 }
