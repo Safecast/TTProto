@@ -9,6 +9,7 @@ message Telecast {
         TTAPP = 3;
         TTRELAY = 4;
         TTGATE = 5;
+        TTSERVE = 6;
     }
 
     required deviceType DeviceType = 1;
