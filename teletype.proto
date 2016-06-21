@@ -34,6 +34,10 @@ message Telecast {
 
     optional float BatteryVoltage = 11;
     optional float BatterySOC = 12;
+
     optional float WirelessSNR = 13;
+
+    optional float envTemperature = 14;
+    optional float envHumidity = 15;
 
 }
