@@ -40,4 +40,10 @@ message Telecast {
     optional float envTemperature = 14;
     optional float envHumidity = 15;
 
+    optional uint32 RelayDevice1 = 16;
+    optional uint32 RelayDevice2 = 17;
+    optional uint32 RelayDevice3 = 18;
+    optional uint32 RelayDevice4 = 19;
+    optional uint32 RelayDevice5 = 20;
+
 }
