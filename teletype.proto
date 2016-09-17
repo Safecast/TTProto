@@ -46,4 +46,17 @@ message Telecast {
     optional uint32 RelayDevice4 = 19;
     optional uint32 RelayDevice5 = 20;
 
+    optional uint32 pms_tsi_01_0 = 21;
+    optional uint32 pms_tsi_02_5 = 22;
+    optional uint32 pms_tsi_10_0 = 23;
+    optional uint32 pms_std_01_0 = 24;
+    optional uint32 pms_std_02_5 = 25;
+    optional uint32 pms_std_10_0 = 26;
+    optional uint32 pms_count_00_3 = 27;
+    optional uint32 pms_count_00_5 = 28;
+    optional uint32 pms_count_01_0 = 29;
+    optional uint32 pms_count_02_5 = 30;
+    optional uint32 pms_count_05_0 = 31;
+    optional uint32 pms_count_10_0 = 32;
+
 }
