@@ -59,4 +59,13 @@ message Telecast {
     optional uint32 pms_count_05_0 = 31;
     optional uint32 pms_count_10_0 = 32;
 
+    optional uint32 stats_uptime_minutes = 33;
+    optional string stats_app_version = 34;
+    optional string stats_device_params = 35;
+    optional uint32 stats_transmitted_bytes = 36;
+    optional uint32 stats_received_bytes = 37;
+    optional uint32 stats_oneshots = 38;
+    optional uint32 stats_comms_resets = 39;
+    
+    
 }
