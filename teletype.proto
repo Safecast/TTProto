@@ -67,8 +67,8 @@ message Telecast {
     optional uint32 stats_oneshots = 38;
     optional uint32 stats_comms_resets = 39;
 
-    optional uint32 opc_01_0 = 40;
-    optional uint32 opc_02_5 = 41;
-    optional uint32 opc_10_0 = 42;
+    optional float opc_01_0 = 40;
+    optional float opc_02_5 = 41;
+    optional float opc_10_0 = 42;
     
 }

@@ -3,6 +3,6 @@ protoc --go_out=./golang teletype.proto
 
 ## Download and unzip nanopb sdk into a folder, and point to it with the env var NANOPBSDK
 ## https://koti.kapsi.fi/jpa/nanopb/
-## Then, before doing the following command, type:
-##    export NANOPBSDK=~/dev/nano/nanopb
+## Then,
+export NANOPBSDK=~/dev/nano/nanopb
 ${NANOPBSDK}/generator-bin/protoc -I./ -I${NANOPBSDK}/generator/proto/ --nanopb_out=./clang teletype.proto
