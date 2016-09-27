@@ -70,5 +70,8 @@ message Telecast {
     optional float opc_01_0 = 40;
     optional float opc_02_5 = 41;
     optional float opc_10_0 = 42;
+
+    optional uint32 cpm0 = 43;
+    optional uint32 cpm1 = 44;
     
 }
