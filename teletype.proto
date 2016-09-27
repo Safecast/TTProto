@@ -66,6 +66,9 @@ message Telecast {
     optional uint32 stats_received_bytes = 37;
     optional uint32 stats_oneshots = 38;
     optional uint32 stats_comms_resets = 39;
-    
+
+    optional uint32 opc_01_0 = 40;
+    optional uint32 opc_02_5 = 41;
+    optional uint32 opc_10_0 = 42;
     
 }
