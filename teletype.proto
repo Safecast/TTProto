@@ -78,5 +78,8 @@ message Telecast {
     optional uint32 opc_c05_00 = 47;
     optional uint32 opc_c10_00 = 48;
     optional uint32 opc_csecs = 49;
+
+    optional float envPressure = 50;
+
     
 }
