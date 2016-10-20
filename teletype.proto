@@ -80,6 +80,6 @@ message Telecast {
     optional uint32 opc_csecs = 49;
 
     optional float envPressure = 50;
-
+    optional uint32 stats_comms_power_fails = 51;
     
 }
