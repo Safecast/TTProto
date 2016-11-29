@@ -82,5 +82,6 @@ message Telecast {
     optional float envPressure = 50;
     optional uint32 stats_comms_power_fails = 51;
     optional float BatteryCurrent = 52;
+    optional string stats_cell = 53;
     
 }
