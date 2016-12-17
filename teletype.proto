@@ -84,5 +84,6 @@ message Telecast {
     optional float BatteryCurrent = 52;
     optional string stats_cell = 53;
     optional uint32 stats_motiondrops = 54;
+    optional string stats_dfu = 55;
     
 }
