@@ -5,7 +5,7 @@ message Telecast {
     enum deviceType {
         UNKNOWN_DEVICE_TYPE = 0;
         BGEIGIE_NANO = 1;
-        SIMPLECAST = 2;
+        SOLARCAST = 2;
         TTAPP = 3;
         TTRELAY = 4;
         TTGATE = 5;
