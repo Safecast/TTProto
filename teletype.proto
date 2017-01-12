@@ -88,5 +88,6 @@ message Telecast {
 
     optional uint32 CapturedAtDate = 56;
     optional uint32 CapturedAtTime = 57;
+    optional uint32 CapturedAtOffset = 58;
 
 }
