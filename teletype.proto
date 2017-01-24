@@ -7,7 +7,7 @@ message Telecast {
         BGEIGIE_NANO = 1;
         SOLARCAST = 2;
         TTAPP = 3;
-        TTRELAY = 4;
+        TTNODE = 4;
         TTGATE = 5;
         TTSERVE = 6;
     }
