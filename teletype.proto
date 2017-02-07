@@ -14,8 +14,8 @@ message Telecast {
 
     required deviceType DeviceType = 1;
 
-    optional string DeviceIDString = 2;
-    optional uint32 DeviceIDNumber = 3;
+    optional string DEPRECATED2017FEBDeviceIDString = 2;
+    optional uint32 DeviceID = 3;
 
     optional string Message = 4;
     
@@ -25,12 +25,12 @@ message Telecast {
         UNKNOWN_UNIT = 0;
         CPM = 1;
     }
-    optional unit Unit = 6;
-    optional uint32 Value = 7;
+    optional unit DEPRECATED2017FEBUnit = 6;
+    optional uint32 DEPRECATED2017FEBValue = 7;
 
     optional float Latitude = 8;
     optional float Longitude = 9;
-    optional uint32 Altitude = 10;
+    optional int32 Altitude = 10;
 
     optional float BatteryVoltage = 11;
     optional float BatterySOC = 12;

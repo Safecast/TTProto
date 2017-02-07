@@ -1,4 +1,3 @@
-teletype.Telecast.DeviceIDString max_size:32
 teletype.Telecast.Message max_size:250
 teletype.Telecast.CapturedAt max_size:40
 teletype.Telecast.stats_device_params max_size:64
