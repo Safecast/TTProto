@@ -94,5 +94,9 @@ message Telecast {
     optional string stats_cpsi = 62;
     optional uint32 stats_uptime_days = 63;
     optional string stats_device_info = 64;
+    optional string stats_gps_params = 65;
+    optional string stats_service_params = 66;
+    optional string stats_ttn_params = 67;
+    optional string stats_sensor_params = 68;
 
 }
