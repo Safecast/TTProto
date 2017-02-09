@@ -93,6 +93,6 @@ message Telecast {
     optional uint32 stamp_version = 61;
     optional string stats_cpsi = 62;
     optional uint32 stats_uptime_days = 63;
-    optional string device_label = 64;
+    optional string stats_device_info = 64;
 
 }
