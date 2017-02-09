@@ -21,11 +21,10 @@ message Telecast {
     
     optional string CapturedAt = 5;
 
-    enum unit {
-        UNKNOWN_UNIT = 0;
-        CPM = 1;
+    enum DEPRECATEDunit {
+        unused = 0;
     }
-    optional unit DEPRECATED2017FEBUnit = 6;
+    optional DEPRECATEDunit DEPRECATED2017FEBUnit = 6;
     optional uint32 DEPRECATED2017FEBValue = 7;
 
     optional float Latitude = 8;
@@ -82,7 +81,7 @@ message Telecast {
     optional float envPressure = 50;
     optional uint32 stats_comms_power_fails = 51;
     optional float BatteryCurrent = 52;
-    optional string stats_cell = 53;
+    optional string stats_iccid = 53;
     optional uint32 stats_motiondrops = 54;
     optional string stats_dfu = 55;
 
@@ -92,5 +91,7 @@ message Telecast {
     optional uint32 stats_oneshot_seconds = 59;
     optional uint32 stamp = 60;
     optional uint32 stamp_version = 61;
+    optional string stats_cpsi = 62;
+    optional uint32 stats_uptime_days = 63;
 
 }
