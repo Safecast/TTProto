@@ -4,7 +4,7 @@ teletype.Telecast.stats_app_version max_size:64
 teletype.Telecast.stats_iccid max_size:128
 teletype.Telecast.stats_cpsi max_size:128
 teletype.Telecast.stats_dfu max_size:128
-teletype.Telecast.stats_device_info max_size:64
+teletype.Telecast.stats_device_label max_size:64
 teletype.Telecast.stats_device_params max_size:64
 teletype.Telecast.stats_gps_params max_size:64
 teletype.Telecast.stats_service_params max_size:64
