@@ -45,8 +45,8 @@ message Telecast {
     optional uint32 RelayDevice4 = 19;
     optional uint32 RelayDevice5 = 20;
 
-    optional uint32 cpm0 = 21;
-    optional uint32 cpm1 = 22;
+    optional uint32 lnd_7318u = 21;
+    optional uint32 lnd_7128ec = 22;
 
     optional uint32 stats_uptime_minutes = 23;
     optional string stats_app_version = 24;
@@ -98,5 +98,6 @@ message Telecast {
     optional string stats_service_params = 66;
     optional string stats_ttn_params = 67;
     optional string stats_sensor_params = 68;
+    optional uint32 lnd_7318c = 69;
 
 }
