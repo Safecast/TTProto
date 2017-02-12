@@ -21,10 +21,11 @@ message Telecast {
     
     optional string CapturedAt = 5;
 
-    enum DEPRECATEDunit {
-        unused = 0;
+    enum ReplyType {
+        NO_REPLY = 0;
+        REPLY_EXPECTED = 1;
     }
-    optional DEPRECATEDunit DEPRECATED2017FEBUnit = 6;
+    optional ReplyType Reply = 6;
     optional uint32 DEPRECATED2017FEBValue = 7;
 
     optional float Latitude = 8;
