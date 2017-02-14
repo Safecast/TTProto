@@ -15,6 +15,7 @@ message Telecast {
     required deviceType DeviceType = 1;
 
     optional string DEPRECATED2017FEBDeviceIDString = 2;
+
     optional uint32 DeviceID = 3;
 
     optional string Message = 4;
@@ -26,6 +27,7 @@ message Telecast {
         REPLY_EXPECTED = 1;
     }
     optional replyType ReplyType = 6;
+
     optional uint32 DEPRECATED2017FEBValue = 7;
 
     optional float Latitude = 8;
@@ -100,5 +102,6 @@ message Telecast {
     optional string stats_ttn_params = 67;
     optional string stats_sensor_params = 68;
     optional uint32 lnd_7318c = 69;
+    optional string stats_battery = 70;
 
 }

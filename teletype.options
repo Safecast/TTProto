@@ -10,3 +10,4 @@ teletype.Telecast.stats_gps_params max_size:64
 teletype.Telecast.stats_service_params max_size:64
 teletype.Telecast.stats_ttn_params max_size:64
 teletype.Telecast.stats_sensor_params max_size:64
+teletype.Telecast.stats_battery max_size:64
