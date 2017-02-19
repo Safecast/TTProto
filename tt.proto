@@ -31,8 +31,8 @@ message Telecast {
     optional float bat_voltage = 11;
     optional float bat_soc = 12;
     optional float wireless_snr = 13;
-    optional float env_emperature = 14;
-    optional float env_umidity = 15;
+    optional float env_temp = 14;
+    optional float env_humid = 15;
     optional uint32 relay_device1 = 16;
     optional uint32 relay_device2 = 17;
     optional uint32 relay_device3 = 18;
