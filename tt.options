@@ -2,8 +2,8 @@
 // Use of this source code is governed by licenses granted by the
 // copyright holder including that found in the LICENSE file.
 
-ttproto.Telecast.Message max_size:250
-ttproto.Telecast.CapturedAt max_size:40
+ttproto.Telecast.message max_size:250
+ttproto.Telecast.captured_at max_size:40
 ttproto.Telecast.stats_app_version max_size:64
 ttproto.Telecast.stats_iccid max_size:128
 ttproto.Telecast.stats_cpsi max_size:128
