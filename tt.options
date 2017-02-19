@@ -1,0 +1,17 @@
+// Copyright 2017 Inca Roads LLC.  All rights reserved.
+// Use of this source code is governed by licenses granted by the
+// copyright holder including that found in the LICENSE file.
+
+ttproto.Telecast.Message max_size:250
+ttproto.Telecast.CapturedAt max_size:40
+ttproto.Telecast.stats_app_version max_size:64
+ttproto.Telecast.stats_iccid max_size:128
+ttproto.Telecast.stats_cpsi max_size:128
+ttproto.Telecast.stats_dfu max_size:128
+ttproto.Telecast.stats_device_label max_size:64
+ttproto.Telecast.stats_device_params max_size:64
+ttproto.Telecast.stats_gps_params max_size:64
+ttproto.Telecast.stats_service_params max_size:64
+ttproto.Telecast.stats_ttn_params max_size:64
+ttproto.Telecast.stats_sensor_params max_size:64
+ttproto.Telecast.stats_battery max_size:64

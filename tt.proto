@@ -1,7 +1,10 @@
-package teletype;
+// Copyright 2017 Inca Roads LLC.  All rights reserved.
+// Use of this source code is governed by licenses granted by the
+// copyright holder including that found in the LICENSE file.
+
+package ttproto;
 
 message Telecast {
-
     enum deviceType {
         UNKNOWN_DEVICE_TYPE = 0;
         BGEIGIE_NANO = 1;
@@ -11,46 +14,32 @@ message Telecast {
         TTGATE = 5;
         TTSERVE = 6;
     }
-
-    required deviceType DeviceType = 1;
-
+    required deviceType device_type = 1;
     optional string DEPRECATED2017FEBDeviceIDString = 2;
-
     optional uint32 DeviceID = 3;
-
     optional string Message = 4;
-    
     optional string CapturedAt = 5;
-
     enum replyType {
         NO_REPLY = 0;
         REPLY_EXPECTED = 1;
     }
     optional replyType ReplyType = 6;
-
     optional uint32 DEPRECATED2017FEBValue = 7;
-
     optional float Latitude = 8;
     optional float Longitude = 9;
     optional int32 Altitude = 10;
-
     optional float BatteryVoltage = 11;
     optional float BatterySOC = 12;
-
     optional float WirelessSNR = 13;
-
     optional float envTemperature = 14;
     optional float envHumidity = 15;
-
     optional uint32 RelayDevice1 = 16;
     optional uint32 RelayDevice2 = 17;
     optional uint32 RelayDevice3 = 18;
     optional uint32 RelayDevice4 = 19;
     optional uint32 RelayDevice5 = 20;
-
     optional uint32 lnd_7318u = 21;
     optional uint32 lnd_7128ec = 22;
-
     optional uint32 stats_uptime_minutes = 23;
     optional string stats_app_version = 24;
     optional string stats_device_params = 25;
@@ -58,7 +47,6 @@ message Telecast {
     optional uint32 stats_received_bytes = 27;
     optional uint32 stats_oneshots = 28;
     optional uint32 stats_comms_resets = 29;
-
     optional uint32 pms_pm01_0 = 30;
     optional uint32 pms_pm02_5 = 31;
     optional uint32 pms_pm10_0 = 32;
@@ -69,7 +57,6 @@ message Telecast {
     optional uint32 pms_c05_00 = 37;
     optional uint32 pms_c10_00 = 38;
     optional uint32 pms_csecs = 39;
-
     optional float opc_pm01_0 = 40;
     optional float opc_pm02_5 = 41;
     optional float opc_pm10_0 = 42;
@@ -80,14 +67,12 @@ message Telecast {
     optional uint32 opc_c05_00 = 47;
     optional uint32 opc_c10_00 = 48;
     optional uint32 opc_csecs = 49;
-
     optional float envPressure = 50;
     optional uint32 stats_comms_power_fails = 51;
     optional float BatteryCurrent = 52;
     optional string stats_iccid = 53;
     optional uint32 stats_motiondrops = 54;
     optional string stats_dfu = 55;
-
     optional uint32 CapturedAtDate = 56;
     optional uint32 CapturedAtTime = 57;
     optional uint32 CapturedAtOffset = 58;
