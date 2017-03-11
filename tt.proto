@@ -88,6 +88,7 @@ message Telecast {
     optional string stats_sensor_params = 68;
     optional uint32 lnd_7318c = 69;
     optional string stats_battery = 70;
-    optional string stats_modules = 71;
+    optional string stats_module_fona = 71;
+    optional string stats_module_lora = 72;
 
 }
