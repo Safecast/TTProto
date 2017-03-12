@@ -90,5 +90,6 @@ message Telecast {
     optional string stats_battery = 70;
     optional string stats_module_fona = 71;
     optional string stats_module_lora = 72;
+    optional uint32 motion = 73;
 
 }
