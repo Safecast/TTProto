@@ -91,5 +91,22 @@ message Telecast {
     optional string stats_module_fona = 71;
     optional string stats_module_lora = 72;
     optional bool motion = 73;
+    optional bool test = 74;
+    optional float enc_temp = 75;
+    optional float enc_humid = 76;
+    optional float enc_pressure = 77;
+    optional uint32 errors_opc = 78;
+    optional uint32 errors_pms = 79;
+    optional uint32 errors_bme0 = 80;
+    optional uint32 errors_bme1 = 81;
+    optional uint32 errors_lora = 82;
+    optional uint32 errors_fona = 83;
+    optional uint32 errors_geiger = 84;
+    optional uint32 errors_max01 = 85;
+    optional uint32 errors_ugps = 86;
+    optional uint32 errors_twi = 87;
+    optional string errors_twi_info = 88;
+    optional uint32 errors_lis = 89;
+
 
 }
