@@ -17,4 +17,4 @@ ttproto.Telecast.stats_service_params max_size:64
 ttproto.Telecast.stats_ttn_params max_size:64
 ttproto.Telecast.stats_sensor_params max_size:64
 ttproto.Telecast.stats_battery max_size:64
-ttproto.Telecast.errors_twi_info max_size:256
+ttproto.Telecast.errors_twi_info max_size:128
