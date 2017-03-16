@@ -107,6 +107,7 @@ message Telecast {
     optional uint32 errors_twi = 87;
     optional string errors_twi_info = 88;
     optional uint32 errors_lis = 89;
+    optional uint32 errors_spi = 90;
 
 
 }
