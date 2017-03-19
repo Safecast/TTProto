@@ -108,6 +108,11 @@ message Telecast {
     optional string errors_twi_info = 88;
     optional uint32 errors_lis = 89;
     optional uint32 errors_spi = 90;
+    optional uint32 errors_connect_lora = 91;
+    optional uint32 errors_connect_fona = 92;
+    optional uint32 errors_connect_wireless = 93;
+    optional uint32 errors_connect_data = 94;
+    optional uint32 errors_connect_service = 95;
 
 
 }
