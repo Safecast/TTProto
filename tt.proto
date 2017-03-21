@@ -14,7 +14,7 @@ message Telecast {
         TTGATE = 5;
         TTSERVE = 6;
     }
-    optional deviceType device_type = 1;
+    required deviceType device_type = 1;
     optional string DEPRECATED2017FEBDeviceIDString = 2;
     optional uint32 device_id = 3;
     optional string message = 4;
