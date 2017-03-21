@@ -15,7 +15,7 @@ message Telecast {
         TTSERVE = 6;
     }
     // This field is actually REQUIRED by ttserve
-    optional deviceType device_type = 1;
+    required deviceType device_type = 1;
     optional string DEPRECATED2017FEBDeviceIDString = 2;
     // This field is actually REQUIRED by ttserve
     optional uint32 device_id = 3;
