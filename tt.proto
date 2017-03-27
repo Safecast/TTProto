@@ -22,7 +22,7 @@ message Telecast {
     optional string captured_at = 5;
     enum replyType {
         NO_REPLY = 0;
-        REPLY_EXPECTED = 1;
+        REPLY_ALLOWED = 1;
     }
     optional replyType reply_type = 6;
     optional uint32 DEPRECATED2017FEBValue = 7;
