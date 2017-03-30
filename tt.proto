@@ -114,6 +114,7 @@ message Telecast {
     optional uint32 errors_connect_wireless = 93;
     optional uint32 errors_connect_data = 94;
     optional uint32 errors_connect_service = 95;
+    optional uint32 motion_began_offset = 96;
 
 
 }
