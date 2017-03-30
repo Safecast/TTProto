@@ -91,7 +91,7 @@ message Telecast {
     optional string stats_battery = 70;
     optional string stats_module_fona = 71;
     optional string stats_module_lora = 72;
-    optional bool motion = 73;
+    optional bool DEPRECATED2017MARmotion = 73;
     optional bool test = 74;
     optional float enc_temp = 75;
     optional float enc_humid = 76;
