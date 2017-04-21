@@ -117,6 +117,8 @@ message Telecast {
     optional uint32 motion_began_offset = 96;
     optional uint32 errors_connect_gateway = 97;
     optional uint32 stats_comms_ant_fails = 98;
+    optional uint32 lnd_712u = 99;
+    optional uint32 lnd_78017w = 100;
 
 
 }
