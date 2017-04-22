@@ -72,7 +72,7 @@ message Telecast {
     optional uint32 stats_comms_power_fails = 51;
     optional float bat_current = 52;
     optional string stats_iccid = 53;
-    optional uint32 stats_motionevents = 54;
+    optional uint32 stats_motion_events = 54;
     optional string stats_dfu = 55;
     optional uint32 captured_at_date = 56;
     optional uint32 captured_at_time = 57;
