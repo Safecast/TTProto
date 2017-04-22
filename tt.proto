@@ -72,7 +72,7 @@ message Telecast {
     optional uint32 stats_comms_power_fails = 51;
     optional float bat_current = 52;
     optional string stats_iccid = 53;
-    optional uint32 stats_motiondrops = 54;
+    optional uint32 stats_motionevents = 54;
     optional string stats_dfu = 55;
     optional uint32 captured_at_date = 56;
     optional uint32 captured_at_time = 57;
@@ -91,7 +91,7 @@ message Telecast {
     optional string stats_battery = 70;
     optional string stats_module_fona = 71;
     optional string stats_module_lora = 72;
-    optional bool DEPRECATED2017MARmotion = 73;
+    optional bool motion = 73;
     optional bool test = 74;
     optional float enc_temp = 75;
     optional float enc_humid = 76;
