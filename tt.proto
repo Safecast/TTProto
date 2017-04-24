@@ -120,6 +120,12 @@ message Telecast {
     optional uint32 lnd_712u = 99;
     optional uint32 lnd_78017w = 100;
     optional uint32 stats_overcurrent_events = 101;
+    optional float pms_std01_0 = 102;
+    optional float pms_std02_5 = 103;
+    optional float pms_std10_0 = 104;
+    optional float opc_std01_0 = 105;
+    optional float opc_std02_5 = 106;
+    optional float opc_std10_0 = 107;
 
 
 }
