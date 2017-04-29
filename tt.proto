@@ -13,6 +13,7 @@ message Telecast {
         TTNODE = 4;
         TTGATE = 5;
         TTSERVE = 6;
+        TTGATEPING = 7;
     }
     optional deviceType device_type = 1;
     optional string DEPRECATED2017FEBDeviceIDString = 2;
