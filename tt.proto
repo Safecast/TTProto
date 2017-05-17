@@ -128,5 +128,6 @@ message Telecast {
     optional float opc_std02_5 = 106;
     optional float opc_std10_0 = 107;
     optional uint32 errors_mtu = 108;
+    optional uint32 sequence = 109;
 
 }
