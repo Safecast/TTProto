@@ -6,7 +6,7 @@ ttproto.Telecast.message max_size:250
 ttproto.Telecast.captured_at max_size:40
 ttproto.Telecast.stats_app_version max_size:64
 ttproto.Telecast.stats_iccid max_size:128
-ttproto.Telecast.stats_cpsi max_size:128
+ttproto.Telecast.stats_cpsi max_size:250
 ttproto.Telecast.stats_dfu max_size:128
 ttproto.Telecast.stats_module_lora max_size:64
 ttproto.Telecast.stats_module_fona max_size:64
