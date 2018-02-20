@@ -131,5 +131,15 @@ message Telecast {
     optional float opc_std10_0 = 107;
     optional uint32 errors_mtu = 108;
     optional uint32 stats_seqno = 109;
+    optional uint32 pms2_pm01_0 = 110;
+    optional uint32 pms2_pm02_5 = 111;
+    optional uint32 pms2_pm10_0 = 112;
+    optional uint32 pms2_c00_30 = 113;
+    optional uint32 pms2_c00_50 = 114;
+    optional uint32 pms2_c01_00 = 115;
+    optional uint32 pms2_c02_50 = 116;
+    optional uint32 pms2_c05_00 = 117;
+    optional uint32 pms2_c10_00 = 118;
+    optional uint32 pms2_csecs = 119;
 
 }
